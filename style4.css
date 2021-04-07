@@ -1,0 +1,34 @@
+
+body{
+	background-image: url(img12.jpg);
+	background-size: cover;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+.table-box{
+	margin: 50px auto;
+}
+.table-row{
+	display: table;
+	width: 70%;
+	margin: 10px auto;
+	font-family: cursive;
+	background: transparent;
+	padding: 12px 0;
+	color: #000;
+	font-size: 15px;
+	box-shadow: 0 4px 8px rgba(0,2,4,6),0  4px 8px rgba(0,3,6,7);
+}
+.table-cell{
+	display: table-cell;
+	width: 20%;
+	text-align: center;
+	padding: 4px 0;
+	border-right: 1px solid ;
+	vertical-align: middle;
+}
+.table-head{
+	background: black;
+	font-weight: 900;
+	color: white;
+}
